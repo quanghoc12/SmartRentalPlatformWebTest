@@ -1,0 +1,207 @@
+{
+  "auth.login.emailInput": {
+    "strategy": "id",
+    "value": "login-email",
+    "description": "Email input trên LoginForm.tsx"
+  },
+  "auth.login.passwordInput": {
+    "strategy": "id",
+    "value": "login-password",
+    "description": "Mật khẩu input trên LoginForm.tsx"
+  },
+  "auth.login.passwordToggle": {
+    "strategy": "css",
+    "value": ".auth-password-toggle",
+    "description": "Nút ẩn/hiện mật khẩu trên LoginForm.tsx"
+  },
+  "auth.login.rememberCheckbox": {
+    "strategy": "css",
+    "value": ".auth-checkbox input[type=\"checkbox\"]",
+    "description": "Checkbox Ghi nhớ đăng nhập trên LoginForm.tsx"
+  },
+  "auth.login.forgotLink": {
+    "strategy": "css",
+    "value": "a[href=\"/forgot-password\"]",
+    "description": "Link Quên mật khẩu trên LoginForm.tsx"
+  },
+  "auth.login.submitBtn": {
+    "strategy": "css",
+    "value": "button.auth-submit-button",
+    "description": "Nút submit Đăng nhập trên LoginForm.tsx"
+  },
+  "auth.login.registerLink": {
+    "strategy": "css",
+    "value": ".auth-links a[href=\"/register\"]",
+    "description": "Link Tạo tài khoản trên LoginPage.tsx"
+  },
+  "auth.login.alertError": {
+    "strategy": "css",
+    "value": ".alert.alert-error",
+    "description": "Alert báo lỗi API trên LoginPage.tsx (Alert.tsx)"
+  },
+  "auth.login.fieldErrors": {
+    "strategy": "css",
+    "value": ".form-field-error",
+    "description": "Danh sách lỗi validation trên LoginForm.tsx (dùng với COUNT)"
+  },
+  "auth.login.emailError": {
+    "strategy": "css",
+    "value": ".form-field:has(#login-email) .form-field-error",
+    "description": "Lỗi validation của trường Email trên LoginForm.tsx"
+  },
+  "auth.login.passwordError": {
+    "strategy": "css",
+    "value": ".form-field:has(#login-password) .form-field-error",
+    "description": "Lỗi validation của trường Mật khẩu trên LoginForm.tsx"
+  },
+  "auth.login.form": {
+    "strategy": "css",
+    "value": "form.auth-form",
+    "description": "Form đăng nhập trên LoginForm.tsx"
+  },
+  "auth.register.emailInput": {
+    "strategy": "id",
+    "value": "register-email",
+    "description": "Email input trên RegisterForm.tsx"
+  },
+  "auth.register.passwordInput": {
+    "strategy": "id",
+    "value": "register-password",
+    "description": "Mật khẩu input trên RegisterForm.tsx"
+  },
+  "auth.register.confirmPasswordInput": {
+    "strategy": "id",
+    "value": "register-confirm-password",
+    "description": "Nhập lại mật khẩu input trên RegisterForm.tsx"
+  },
+  "auth.register.displayNameInput": {
+    "strategy": "id",
+    "value": "register-display-name",
+    "description": "Tên hiển thị input trên RegisterForm.tsx"
+  },
+  "auth.register.phoneInput": {
+    "strategy": "id",
+    "value": "register-phone",
+    "description": "Số điện thoại input trên RegisterForm.tsx"
+  },
+  "auth.register.submitBtn": {
+    "strategy": "css",
+    "value": "button.auth-submit-button",
+    "description": "Nút Tạo tài khoản trên RegisterForm.tsx"
+  },
+  "auth.register.loginLink": {
+    "strategy": "css",
+    "value": ".auth-links a[href=\"/login\"]",
+    "description": "Link Đã có tài khoản? Đăng nhập trên RegisterPage.tsx"
+  },
+  "auth.register.alertError": {
+    "strategy": "css",
+    "value": ".alert.alert-error",
+    "description": "Alert lỗi đăng ký trên RegisterPage.tsx"
+  },
+  "auth.register.fieldErrors": {
+    "strategy": "css",
+    "value": ".form-field-error",
+    "description": "Danh sách lỗi validation trên RegisterForm.tsx (dùng với COUNT)"
+  },
+  "auth.register.emailError": {
+    "strategy": "css",
+    "value": ".form-field:has(#register-email) .form-field-error",
+    "description": "Lỗi validation trường Email trên RegisterForm.tsx"
+  },
+  "auth.register.passwordError": {
+    "strategy": "css",
+    "value": ".form-field:has(#register-password) .form-field-error",
+    "description": "Lỗi validation trường Mật khẩu trên RegisterForm.tsx"
+  },
+  "auth.register.confirmPasswordError": {
+    "strategy": "css",
+    "value": ".form-field:has(#register-confirm-password) .form-field-error",
+    "description": "Lỗi validation trường Nhập lại mật khẩu trên RegisterForm.tsx"
+  },
+  "auth.register.displayNameError": {
+    "strategy": "css",
+    "value": ".form-field:has(#register-display-name) .form-field-error",
+    "description": "Lỗi validation trường Tên hiển thị trên RegisterForm.tsx"
+  },
+  "auth.register.phoneError": {
+    "strategy": "css",
+    "value": ".form-field:has(#register-phone) .form-field-error",
+    "description": "Lỗi validation trường Số điện thoại trên RegisterForm.tsx"
+  },
+  "auth.verifyEmail.heading": {
+    "strategy": "css",
+    "value": "h1",
+    "description": "Tiêu đề Nhập mã OTP trên VerifyEmailOtpPage.tsx"
+  },
+  "auth.forgot.emailInput": {
+    "strategy": "id",
+    "value": "forgot-password-email",
+    "description": "Email input trên ForgotPasswordForm.tsx"
+  },
+  "auth.forgot.submitBtn": {
+    "strategy": "css",
+    "value": "button.auth-submit-button",
+    "description": "Nút Gửi OTP đặt lại mật khẩu trên ForgotPasswordForm.tsx"
+  },
+  "auth.forgot.emailError": {
+    "strategy": "css",
+    "value": ".form-field:has(#forgot-password-email) .form-field-error",
+    "description": "Thông báo lỗi email trên ForgotPasswordForm.tsx"
+  },
+  "auth.resetPassword.heading": {
+    "strategy": "css",
+    "value": "h1",
+    "description": "Tiêu đề Đặt lại mật khẩu trên ResetPasswordPage.tsx"
+  },
+  "auth.header.loginBtn": {
+    "strategy": "css",
+    "value": ".auth-buttons button:has-text(\"Đăng nhập\")",
+    "description": "Nút Đăng nhập trên HomeHeader.tsx khi chưa đăng nhập"
+  },
+  "auth.header.registerBtn": {
+    "strategy": "css",
+    "value": ".auth-buttons button:has-text(\"Đăng ký\")",
+    "description": "Nút Đăng ký trên HomeHeader.tsx khi chưa đăng nhập"
+  },
+  "auth.header.avatarBtn": {
+    "strategy": "css",
+    "value": "button.avatar-btn",
+    "description": "Nút mở menu Avatar trên HomeHeader.tsx"
+  },
+  "auth.header.avatarName": {
+    "strategy": "css",
+    "value": ".avatar-name",
+    "description": "Tên hiển thị trên Avatar trong HomeHeader.tsx"
+  },
+  "auth.header.avatarDropdown": {
+    "strategy": "css",
+    "value": ".avatar-dropdown",
+    "description": "Menu dropdown của người dùng trên HomeHeader.tsx"
+  },
+  "auth.header.logoutBtn": {
+    "strategy": "css",
+    "value": ".avatar-dropdown button.dropdown-item--danger",
+    "description": "Nút Đăng xuất trong dropdown Avatar trên HomeHeader.tsx"
+  },
+  "auth.header.landlordChannelBtn": {
+    "strategy": "css",
+    "value": "button.landlord-channel-btn",
+    "description": "Nút Kênh chủ trọ trên HomeHeader.tsx dành cho Landlord"
+  },
+  "auth.admin.sidebarTitle": {
+    "strategy": "css",
+    "value": ".admin-sidebar .sidebar-subtitle",
+    "description": "Nhãn Quản trị viên trên AdminHomePage.tsx"
+  },
+  "auth.admin.logoutBtn": {
+    "strategy": "css",
+    "value": "button.sidebar-logout-btn",
+    "description": "Nút Đăng xuất trên AdminHomePage.tsx"
+  },
+  "auth.admin.table": {
+    "strategy": "css",
+    "value": "table.admin-table",
+    "description": "Bảng quản lý trong AdminHomePage.tsx"
+  }
+}

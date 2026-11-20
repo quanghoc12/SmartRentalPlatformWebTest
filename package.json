@@ -1,0 +1,28 @@
+{
+  "name": "smart-rental-platform-web-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI-assisted & Excel-driven Playwright Web Test repository for SmartRentalPlatform",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build:xlsx": "tsx src/cli/generate-pilot-xlsx.ts",
+    "validate:xlsx": "tsx src/cli/validate-xlsx.ts --file inputs/auth-home.testcases.xlsx",
+    "test:excel": "tsx src/cli/run-excel.ts",
+    "test:auth-home": "tsx src/cli/run-excel.ts --file inputs/auth-home.testcases.xlsx --reset-db",
+    "test:auth-home:fast": "tsx src/cli/run-excel.ts --file inputs/auth-home.testcases.xlsx --no-reset-db",
+    "build:assessment": "tsx src/cli/generate-assessment.ts --file inputs/auth-home.testcases.xlsx --module auth-home",
+    "test:self": "tsx src/cli/self-test.ts",
+    "report": "npx playwright show-report"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

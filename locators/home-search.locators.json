@@ -1,0 +1,177 @@
+{
+  "home.searchInput": {
+    "strategy": "css",
+    "value": "input[aria-label=\"Tìm kiếm khu trọ\"]",
+    "description": "Ô tìm kiếm chính trong SearchSuggestionBox.tsx"
+  },
+  "home.searchSubmitBtn": {
+    "strategy": "css",
+    "value": "button.search-submit-btn",
+    "description": "Nút Tìm trên thanh tìm kiếm MePage.tsx"
+  },
+  "home.suggestionDropdown": {
+    "strategy": "css",
+    "value": ".search-suggestion-box__dropdown",
+    "description": "Dropdown gợi ý tìm kiếm trong SearchSuggestionBox.tsx"
+  },
+  "home.locationBtn": {
+    "strategy": "css",
+    "value": "button.home-location-button",
+    "description": "Nút Khu vực / Xung quanh trên MePage.tsx"
+  },
+  "home.locationDialog": {
+    "strategy": "css",
+    "value": "[role=\"dialog\"][aria-label=\"Tùy chọn vị trí tìm kiếm\"]",
+    "description": "Popup chọn khu vực hoặc tìm quanh bạn (LocationFilterPanel.tsx)"
+  },
+  "home.locationQuickDaNangBtn": {
+    "strategy": "css",
+    "value": ".area-quick-list button:has-text(\"Đà Nẵng\")",
+    "description": "Nút chọn nhanh Đà Nẵng trong LocationFilterPanel.tsx"
+  },
+  "home.locationApplyBtn": {
+    "strategy": "css",
+    "value": ".location-panel-actions button:has-text(\"Áp dụng\")",
+    "description": "Nút Áp dụng trong LocationFilterPanel.tsx"
+  },
+  "home.locationClearBtn": {
+    "strategy": "css",
+    "value": ".location-panel-actions button:has-text(\"Xóa Lọc\")",
+    "description": "Nút Xóa Lọc trong LocationFilterPanel.tsx"
+  },
+  "home.listingCards": {
+    "strategy": "css",
+    "value": "article.home-listing-card",
+    "description": "Danh sách card khu trọ trên MePage.tsx"
+  },
+  "home.firstListingCard": {
+    "strategy": "css",
+    "value": "article.home-listing-card",
+    "nth": 0,
+    "description": "Card khu trọ đầu tiên trên MePage.tsx"
+  },
+  "home.firstFavoriteBtn": {
+    "strategy": "css",
+    "value": "article.home-listing-card .favorite-button",
+    "nth": 0,
+    "description": "Nút tim yêu thích trên card đầu tiên ở MePage.tsx"
+  },
+  "home.viewAllBtn": {
+    "strategy": "css",
+    "value": "button.category-view-all-btn",
+    "nth": 0,
+    "description": "Nút Xem tất cả ở MePage.tsx"
+  },
+  "search.searchInput": {
+    "strategy": "css",
+    "value": "input[aria-label=\"Tìm kiếm khu trọ\"]",
+    "description": "Ô tìm kiếm trên SearchRoomingHousesPage.tsx"
+  },
+  "search.searchSubmitBtn": {
+    "strategy": "css",
+    "value": "button.search-submit-btn",
+    "description": "Nút Tìm trên header SearchRoomingHousesPage.tsx"
+  },
+  "search.clearAllBtn": {
+    "strategy": "css",
+    "value": "button.search-clear-btn",
+    "description": "Nút Xóa tất cả bộ lọc trên SearchRoomingHousesPage.tsx"
+  },
+  "search.priceToggleBtn": {
+    "strategy": "css",
+    "value": "button.filter-toggle:has-text(\"Giá thuê\")",
+    "description": "Nút mở panel lọc Giá thuê trên SearchRoomingHousesPage.tsx"
+  },
+  "search.minPriceInput": {
+    "strategy": "css",
+    "value": "input[aria-label=\"Giá tối thiểu\"]",
+    "description": "Input Giá tối thiểu trên SearchRoomingHousesPage.tsx"
+  },
+  "search.maxPriceInput": {
+    "strategy": "css",
+    "value": "input[aria-label=\"Giá tối đa\"]",
+    "description": "Input Giá tối đa trên SearchRoomingHousesPage.tsx"
+  },
+  "search.areaToggleBtn": {
+    "strategy": "css",
+    "value": "button.filter-toggle:has-text(\"Diện tích\")",
+    "description": "Nút mở panel lọc Diện tích trên SearchRoomingHousesPage.tsx"
+  },
+  "search.minAreaInput": {
+    "strategy": "css",
+    "value": "input[aria-label=\"Diện tích tối thiểu\"]",
+    "description": "Input Diện tích tối thiểu trên SearchRoomingHousesPage.tsx"
+  },
+  "search.maxAreaInput": {
+    "strategy": "css",
+    "value": "input[aria-label=\"Diện tích tối đa\"]",
+    "description": "Input Diện tích tối đa trên SearchRoomingHousesPage.tsx"
+  },
+  "search.occupantsToggleBtn": {
+    "strategy": "css",
+    "value": "button.filter-toggle:has-text(\"Số người ở\")",
+    "description": "Nút mở panel lọc Số người ở trên SearchRoomingHousesPage.tsx"
+  },
+  "search.occupantsSelect": {
+    "strategy": "id",
+    "value": "occupants-select",
+    "description": "Dropdown Số người ở tối thiểu trên SearchRoomingHousesPage.tsx"
+  },
+  "search.panelSaveBtn": {
+    "strategy": "css",
+    "value": ".filter-panel button.btn-save-filter",
+    "description": "Nút Lưu trong filter-panel đang mở"
+  },
+  "search.applyFiltersBtn": {
+    "strategy": "css",
+    "value": "button.apply-filters-btn",
+    "description": "Nút Áp dụng bộ lọc trên SearchRoomingHousesPage.tsx"
+  },
+  "search.resultsCount": {
+    "strategy": "css",
+    "value": ".results-count",
+    "description": "Hiển thị tổng số khu trọ phù hợp trên SearchRoomingHousesPage.tsx"
+  },
+  "search.activeFilterRow": {
+    "strategy": "css",
+    "value": ".active-filter-row",
+    "description": "Hàng tag bộ lọc đang kích hoạt trên SearchRoomingHousesPage.tsx"
+  },
+  "search.sortSelect": {
+    "strategy": "id",
+    "value": "sort-select",
+    "description": "Dropdown Sắp xếp kết quả tìm kiếm"
+  },
+  "search.resultCards": {
+    "strategy": "css",
+    "value": "button.search-result-card",
+    "description": "Danh sách card kết quả tìm kiếm trên SearchRoomingHousesPage.tsx"
+  },
+  "search.firstResultCard": {
+    "strategy": "css",
+    "value": "button.search-result-card",
+    "nth": 0,
+    "description": "Card kết quả đầu tiên trên SearchRoomingHousesPage.tsx"
+  },
+  "search.firstFavoriteBtn": {
+    "strategy": "css",
+    "value": "button.search-result-card .favorite-button",
+    "nth": 0,
+    "description": "Nút tim yêu thích của kết quả đầu tiên trên SearchRoomingHousesPage.tsx"
+  },
+  "search.emptyState": {
+    "strategy": "css",
+    "value": ".search-page__state",
+    "description": "Thông báo trạng thái trống trên SearchRoomingHousesPage.tsx"
+  },
+  "houseDetail.title": {
+    "strategy": "css",
+    "value": ".hero-details-card h1",
+    "description": "Tiêu đề tên khu trọ trên PublicRoomingHouseDetailPage.tsx"
+  },
+  "houseDetail.messageBtn": {
+    "strategy": "css",
+    "value": "button.public-house-detail__message-button",
+    "description": "Nút Nhắn tin chủ trọ trên PublicRoomingHouseDetailPage.tsx"
+  }
+}
